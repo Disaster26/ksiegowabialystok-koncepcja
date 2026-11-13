@@ -249,3 +249,7 @@ blockquote p{font:500 clamp(20px,1.7vw,24px)/1.45 var(--serif);color:#fff !impor
 #kontakt{padding-bottom:0}
 [hidden]{display:none !important}
 .st-kol a,.st-kol span{overflow-wrap:anywhere}
+@media (max-width:760px){
+  .stopka-siatka{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr)}
+  .st-kol a[href^="mailto"]{font-size:14px;overflow-wrap:normal}
+}
